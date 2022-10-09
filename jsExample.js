@@ -15,13 +15,13 @@ const initTimer = maxTime => {
             return timeText.innerText = maxTime;
         }
         
-  //       Swal.fire({
-  // position: 'center',
-  // icon: 'warning',
-  // title: `à¸«à¸¡à¸”à¹€à¸§à¸¥à¸² !`,
-  // text:`${correctWord.toUpperCase()} à¸„à¸·à¸­à¸„à¸³à¸•à¸­à¸šà¸‚à¹‰à¸­à¸™à¸µà¹‰à¸„à¸£à¸±à¸š`,
-  // showConfirmButton: false,
-  // timer: 1500});
+        Swal.fire({
+  position: 'center',
+  icon: 'warning',
+  title: `à¸«à¸¡à¸”à¹€à¸§à¸¥à¸² !`,
+  text:`à¸„à¸·à¸­à¸„à¸³à¸•à¸­à¸šà¸‚à¹‰à¸­à¸™à¸µà¹‰à¸„à¸£à¸±à¸š`,
+  showConfirmButton: false,
+  timer: 1500});
     
         initGame();
     }, 1000);
